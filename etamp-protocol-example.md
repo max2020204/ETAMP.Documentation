@@ -27,7 +27,7 @@ In the ETAMP protocol, each message is wrapped in a structured format to ensure 
     ```json
     {
        "alg":"ES512",
-       "typ":"JWT"
+       "typ":"ETAMP"
     }
     ```
     {% endcode %}
