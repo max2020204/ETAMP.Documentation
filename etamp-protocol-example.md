@@ -1,6 +1,6 @@
 # ETAMP Protocol Example
 
-In the ETAMP protocol, each message is wrapped in a structured format to ensure security and proper communication. Here is an example based on the given structure for sending a message from `fromUser` to `toUser`.
+In the ETAMP protocol, each message is wrapped in a structured format to ensure security and proper communication. Here is an example based on the given structure for sending a message from `sender` to `recipient`.
 
 ### 1. Key Generation:
 
@@ -40,13 +40,13 @@ In the ETAMP protocol, each message is wrapped in a structured format to ensure 
        "exp":1679992314,
        "nbf":1679988714,
        "messageId":"8D85BEAF-9468-49A8-A165-75AB42B01BEB",
-       "senderUserName":"user1",
+       "sender":"user1",
        "senderId":"524B496E-BDE9-473B-A143-55A7F590C373",
        "recipient":"user2",
        "recipientId":"2480756A-DCBB-498B-A92D-AF1093BA26D6",
-       "senderServerName":"WebServer1",
+       "senderServer":"WebServer1",
        "senderServerId":"B2F7714F-891F-4A4F-93F0-D472309DE102",
-       "recipientServerName":"WebServer1",
+       "recipientServer":"WebServer1",
        "recipientServerId":"B2F7714F-891F-4A4F-93F0-D472309DE102",
        "iss":"B2F7714F-891F-4A4F-93F0-D472309DE102.WebServer1.user1.524B496E-BDE9-473B-A143-55A7F590C373",
        "sub":"Message",
