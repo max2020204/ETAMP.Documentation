@@ -39,7 +39,7 @@ In the ETAMP protocol, each message is wrapped in a structured format to ensure 
        "jti":"6F923C36-9A16-460A-85C1-F10F43A61411",
        "exp":1679992314,
        "nbf":1679988714,
-       "messageId":"8D85BEAF-9468-49A8-A165-75AB42B01BEB",
+       "messageId":"550e8400-e29b-41d4-a716-446655440000",
        "sender":"user1",
        "senderId":"524B496E-BDE9-473B-A143-55A7F590C373",
        "recipient":"user2",
